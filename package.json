@@ -1,0 +1,16 @@
+{
+  "name": "github_profile_views",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "keywords": [],
+  "author": "Tammali Deepak",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "^3.1.7"
+  }
+}

@@ -20,7 +20,7 @@ app.get("/user/:username/views", async (c) => {
   const svgWidth = viewDigitsCount * 8 + 110
 
   c.header('Content-Type', 'image/svg+xml')
-  c.header('Cache-Control', 'public, max-age=600, stale-while-revalidate = 60, must-revalidate')
+  c.header('Cache-Control', 'no-store')
 
   return c.body(`<svg width="${svgWidth}" height="24" xmlns="http://www.w3.org/2000/svg">
     <style>

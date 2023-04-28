@@ -1,0 +1,5 @@
+name = "github-views-worker"
+main = "index.js"
+compatibility_date = "2022-07-12"
+
+kv_namespaces = [{ binding = "GithubViewsKV", id = "<KV_ID>", preview_id = "<KV_Preview_ID>" }]
